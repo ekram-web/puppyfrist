@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+/*  */
+/* HEADER */
+/*  */
+.buleBG .taxt {
+  color: white;
+  text-align: center;
+}
+.buleBG {
+  background-color: #195774;
+  width: 100%;
+}
+
+.new .taxt {
+  padding-top: 24px;
+  padding-bottom: 27px;
+}
+/*  */
+/* THE BANNER */
+/*  */
+.banner img {
+  width: 100%;
+}
+.banner {
+  margin-bottom: 50px;
+}
+/*  */
+/* THE FULL COTENIRE */
+/*  */
+
+/* to make all the section center */
+.makeitcenter {
+  width: 960px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  */
+/* THE THREE IMAGES */
+/*  */
+.flex3 {
+  display: flex;
+}
+/* each contaner size relative to the contaner 1/3 */
+.whipu,
+.redBG,
+.copup {
+  width: 33%;
+}
+/* each image inside that contanert size relative to the defined size of the contaner for img use only width */
+.whipu img,
+.redBG img,
+.copup img {
+  width: 100%;
+}
+
+.redBG {
+  text-align: center;
+  font-size: 55px;
+  background-color: #ee4d65;
+  padding: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*  */
+/*THE TWO IMAGES  */
+/*  */
+.puppy-2 .toget {
+  display: flex;
+  margin-top: 30px;
+}
+.ver1 {
+  margin-right: 20px;
+}
+
+.ver2 {
+  margin-left: 20px;
+}
+
+.tx {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+/* THE FOOTER */
+
+footer {
+  margin-top: 30px;
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+.foot .taxt {
+  text-align: center;
+
+  font-size: 25px;
+}
+
+/* THE END😴 */
